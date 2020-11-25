@@ -15,13 +15,13 @@
             "unsealedSourcePaths":["/opt/data/sharestorage/unsealed"],
             "unsealedMountPaths":["/opt/data/lotusstorage/unsealed"]
         },
-        "sealedSizeStatus":{
+        "sealedSizePath":{
             "paths":[]
         },
-        "unsealedSizeStatus:":{
+        "unsealedSizePath:":{
             "paths":[]
         },
-        "cacheSizeStatus":{
+        "cacheSizePath":{
             "paths":[]
         },
         "minerProvingCheck":{
