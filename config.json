@@ -1,0 +1,37 @@
+{
+    "common": {
+        "netStoreAmount": {
+            "sourthPath":"/opt/data/sharestorage",
+            "netPath":"10.10.10.5:/gbricks"
+        },
+        "lotusMinerWorkerVersion":{
+            "version":"1.2.1+6block+git.8bacbc5b5.dirty.1606221478+1"
+        },
+        "sealedMountStatus":{
+            "sealedSourcePaths":["/opt/data/sharestorage/sealed"],
+            "sealedMountPaths":["/opt/data/lotusstorage/sealed"]
+        },
+        "unsealedMountStatus":{
+            "unsealedSourcePaths":["/opt/data/sharestorage/unsealed"],
+            "unsealedMountPaths":["/opt/data/lotusstorage/unsealed"]
+        },
+        "sealedSizeStatus":{
+            "paths":[]
+        },
+        "unsealedSizeStatus:":{
+            "paths":[]
+        },
+        "cacheSizeStatus":{
+            "paths":[]
+        },
+        "minerProvingCheck":{
+            "cachePaths":["/opt/data/lotusstorage/cache"],
+            "sealedPaths":["/opt/data/lotusstorage/sealed"],
+            "unsealedPaths":["/opt/data/lotusstorage/unsealed"]
+        }
+
+    },
+    "":{
+        
+    }
+}
