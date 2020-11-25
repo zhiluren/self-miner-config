@@ -1,5 +1,5 @@
 {
-    "common": {
+    "templete": {
         "netStoreAmount": {
             "sourthPath":"/opt/data/sharestorage",
             "netPath":"10.10.10.5:/gbricks"
@@ -28,10 +28,14 @@
             "cachePaths":["/opt/data/lotusstorage/cache"],
             "sealedPaths":["/opt/data/lotusstorage/sealed"],
             "unsealedPaths":["/opt/data/lotusstorage/unsealed"]
+        },
+        "nvmeMountCheck":{
+            "sourcePaths":["/dev/nvme0n1p1"],
+            "targetPaths":["/mnt/nvme0n1p1"]
         }
 
     },
-    "":{
-        
+    "customer":{
+        "work10-1":null
     }
 }
